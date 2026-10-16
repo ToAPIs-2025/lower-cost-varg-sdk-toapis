@@ -1,0 +1,101 @@
+{
+  "base_url": "https://toapis.com/v1",
+  "api_key_env": "TOAPIS_API_KEY",
+  "image": {
+    "submit": {
+      "method": "POST",
+      "path": "/images/generations"
+    },
+    "poll": {
+      "method": "GET",
+      "path": "/images/generations/{task_id}"
+    },
+    "task_id_path": "id",
+    "status_path": "status",
+    "success": "completed",
+    "failure": [
+      "failed",
+      "cancelled",
+      "expired"
+    ],
+    "result_url_path": "result.data.0.url",
+    "billing_path": "billing",
+    "models": [
+      {
+        "id": "gpt-image-2-vip",
+        "display": "gpt-image-2(VIP)",
+        "body": {
+          "model": "gpt-image-2-vip",
+          "prompt": "{{prompt}}",
+          "n": 1,
+          "size": "1:1",
+          "quality": "low",
+          "resolution": "1K"
+        }
+      },
+      {
+        "id": "gpt-image-2.5-flare",
+        "display": "gpt-image-2.5-flare",
+        "body": {
+          "model": "gpt-image-2.5-flare",
+          "prompt": "{{prompt}}",
+          "n": 1,
+          "size": "1:1",
+          "quality": "high",
+          "metadata": {
+            "resolution": "1K"
+          }
+        }
+      },
+      {
+        "id": "gemini-nano-banana-2.1",
+        "body": {
+          "model": "gemini-nano-banana-2.1",
+          "prompt": "{{prompt}}",
+          "n": 1,
+          "size": "1:1",
+          "metadata": {
+            "resolution": "1K"
+          }
+        }
+      }
+    ]
+  },
+  "video": {
+    "submit": {
+      "method": "POST",
+      "path": "/videos/generations"
+    },
+    "poll": {
+      "method": "GET",
+      "path": "/videos/generations/{task_id}"
+    },
+    "model": "MiniMax-H3",
+    "duration": 5,
+    "resolution": "768p",
+    "aspect_ratio": "1:1",
+    "first_frame_field": "image_with_roles",
+    "result_url_path": "result.data.0.url",
+    "body": {
+      "model": "MiniMax-H3",
+      "prompt": "{{motion_prompt}}",
+      "duration": 5,
+      "resolution": "768p",
+      "aspect_ratio": "1:1",
+      "image_with_roles": [
+        {
+          "url": "{{reference_url}}",
+          "role": "first_frame"
+        }
+      ]
+    }
+  },
+  "upstream": "vargHQ/sdk",
+  "upstream_sha": "c26974440bcdb37b42e13696cf58d3d17a636d6d",
+  "upstream_modules": [
+    "src/ai-sdk/providers/openai.ts",
+    "src/ai-sdk/video-model.ts",
+    "src/ai-sdk/generate-video.ts"
+  ],
+  "format_note": "ToAPIs integration manifest for maintainers; not an upstream-importable settings format unless separately validated"
+}

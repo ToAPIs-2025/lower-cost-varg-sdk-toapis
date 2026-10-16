@@ -1,0 +1,27 @@
+{
+  "task_id": "tsk_img_01M518EJNWMAQ5DG869NJQK95B",
+  "model": "gpt-image-2-vip",
+  "quote_usd": 0.0019,
+  "actual_charge_usd": null,
+  "actual_dimensions": [
+    1024,
+    1024
+  ],
+  "original_format": "PNG",
+  "billing": null,
+  "request": {
+    "model": "gpt-image-2-vip",
+    "prompt": "Original handcrafted paper-cut mountain landscape, layered teal and moss-green peaks around a small amber cabin, warm golden sky, clear paper texture and soft realistic shadows, no text, no logos, square frame.",
+    "n": 1,
+    "size": "1:1",
+    "resolution": "1K",
+    "quality": "low"
+  },
+  "original_output": "examples/gpt-image-2-vip.original.png",
+  "date": "2026-10-16",
+  "status": "completed",
+  "prompt": "Original handcrafted paper-cut mountain landscape, layered teal and moss-green peaks around a small amber cabin, warm golden sky, clear paper texture and soft realistic shadows, no text, no logos, square frame.",
+  "output": "examples/gpt-image-2-vip.png",
+  "sha256": "9f8bbdf170e1dadad50998dcbef54fa5017dcd49ee29034fa36ef6f162bf4934",
+  "validation_scope": "Independent API asset adapter example; upstream application UI and native registration not accepted yet"
+}

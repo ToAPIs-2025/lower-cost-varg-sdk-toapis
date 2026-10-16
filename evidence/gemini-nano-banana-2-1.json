@@ -1,0 +1,28 @@
+{
+  "task_id": "tsk_img_01M518DAEPA4GSZ3K329AH02DE",
+  "model": "gemini-nano-banana-2.1",
+  "quote_usd": 0.015,
+  "actual_charge_usd": null,
+  "actual_dimensions": [
+    1024,
+    1024
+  ],
+  "original_format": "JPEG",
+  "billing": null,
+  "request": {
+    "model": "gemini-nano-banana-2.1",
+    "prompt": "Original handcrafted paper-cut mountain landscape, layered teal and moss-green peaks around a small amber cabin, warm golden sky, clear paper texture and soft realistic shadows, no text, no logos, square frame.",
+    "n": 1,
+    "size": "1:1",
+    "metadata": {
+      "resolution": "1K"
+    }
+  },
+  "original_output": "examples/gemini-nano-banana-2-1.original.jpg",
+  "date": "2026-10-16",
+  "status": "completed",
+  "prompt": "Original handcrafted paper-cut mountain landscape, layered teal and moss-green peaks around a small amber cabin, warm golden sky, clear paper texture and soft realistic shadows, no text, no logos, square frame.",
+  "output": "examples/gemini-nano-banana-2-1.png",
+  "sha256": "634c39e3452121ba3410b7b129e0adca37451c506555fd61be210a11f4bba500",
+  "validation_scope": "Independent API asset adapter example; upstream application UI and native registration not accepted yet"
+}

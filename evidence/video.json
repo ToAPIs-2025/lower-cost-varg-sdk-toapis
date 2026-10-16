@@ -1,0 +1,34 @@
+{
+  "task_id": "tsk_vid_01M518KBGY919DAQ9A96XPDTC5",
+  "model": "MiniMax-H3",
+  "request": {
+    "model": "MiniMax-H3",
+    "prompt": "Slow cinematic camera movement across the original layered paper mountains toward the small amber cabin, gentle parallax, no text.",
+    "duration": 5,
+    "resolution": "768p",
+    "aspect_ratio": "1:1",
+    "image_with_roles": [
+      {
+        "url": "<reference URL omitted>",
+        "role": "first_frame"
+      }
+    ]
+  },
+  "catalog_estimate_usd": "0.40",
+  "billing": {
+    "status": "pending"
+  },
+  "actual_charge_usd": null,
+  "date": "2026-10-16",
+  "status": "completed",
+  "prompt": "Slow cinematic camera movement across the original layered paper mountains toward the small amber cabin, gentle parallax, no text.",
+  "output": "demo/first-frame-motion.mp4",
+  "sha256": "a7678db9879dbcea71f1db09cb4860d959b3c5a1ee46dfc19843ab78632567cc",
+  "validation_scope": "Independent API asset adapter example; upstream application UI and native registration not accepted yet",
+  "full_video_decode_verified": true,
+  "actual_duration_seconds": 5.17,
+  "actual_dimensions": [
+    768,
+    768
+  ]
+}

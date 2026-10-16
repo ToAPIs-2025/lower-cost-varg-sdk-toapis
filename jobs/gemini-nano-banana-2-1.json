@@ -1,0 +1,9 @@
+{
+  "kind": "image",
+  "model": "gemini-nano-banana-2.1",
+  "prompt": "Original handcrafted paper-cut mountain landscape, layered teal and moss-green peaks around a small amber cabin, warm golden sky, clear paper texture and soft realistic shadows, no text, no logos, square frame.",
+  "size": "1024x1024",
+  "run_id": "1016-vg-2",
+  "output": "examples/gemini-nano-banana-2-1.png",
+  "evidence": "evidence/gemini-nano-banana-2-1.json"
+}

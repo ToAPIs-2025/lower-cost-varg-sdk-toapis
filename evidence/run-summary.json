@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-16",
+  "project": "varg SDK",
+  "images": 3,
+  "videos": 1,
+  "catalog_estimate_usd": "0.4394",
+  "actual_charge_usd": null,
+  "billing_status": "pending_owner_reconciliation",
+  "validation_scope": "Independent ToAPIs asset/API examples; upstream UI integration pending"
+}

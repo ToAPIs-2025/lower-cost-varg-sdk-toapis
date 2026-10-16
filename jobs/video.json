@@ -1,0 +1,11 @@
+{
+  "kind": "video",
+  "model": "MiniMax-H3",
+  "duration": 5,
+  "resolution": "768p",
+  "prompt": "Slow cinematic camera movement across the original layered paper mountains toward the small amber cabin, gentle parallax, no text.",
+  "image": "https://raw.githubusercontent.com/ToAPIs-2025/lower-cost-varg-sdk-toapis/main/examples/gpt-image-2-vip.png",
+  "run_id": "my-explicit-video-run",
+  "output": "demo/my-video.mp4",
+  "evidence": "evidence/my-video.json"
+}
